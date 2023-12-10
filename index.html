@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="text-align: center;">
+    <h2>Bulb Project</h2>
+   <button onclick="btnoff()">btnoff</button>
+   <img id="bulb" src="images/bulb-off.png" width="20%">
+   <button onclick="btnon()">btnon</button>
+
+   <script>
+     function btnoff(){
+        document.getElementById("bulb") .src= "images/bulb-off.png"
+     }
+     function btnon(){
+        document.getElementById("bulb") .src= "images/bulb-on.png"
+     }
+   </script>
+</body>
+</html>
